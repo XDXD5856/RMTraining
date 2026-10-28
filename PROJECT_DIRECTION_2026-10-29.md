@@ -16,3 +16,11 @@
 
 ## PROJECT HELLO
 此仓库的 GitHub Issues 功能已关闭，因此将任务直接写在本文件；中央索引在 XDXD5856/PROJECTHELLO 的 `docs/PROJECT_DIRECTIONS_2026-10-29.md`。本文件是方向任务，**不是任务已经完成的证明**。
+
+
+## 人类可操作的两关（2026-10-29 补充）
+
+- [ ] **第一关：交互式／可阅读的 Git 通关指南**。从临时 clone 开始，逐步完成新分支、修改、commit、在 main 制造单独修改、merge 与验证，给出每一步应看到的终端结果。**人工验收**：新人无需 AI，在隔离练习仓库从头走通所有步骤，出现冲突时知道怎样不破坏原数据。
+- [ ] **第二关：只读自检脚本**。只显示当前分支、未提交变更、目标提交和是否已合并；不自动 push、强制改历史或删除分支。**人工验收**：用 3 个临时测试仓库检查通过、未提交、未合并情况，报告准确且源历史不变。
+
+人类总看板：[PROJECT HELLO · Project25](https://github.com/XDXD5856/PROJECTHELLO/blob/main/NEXT_STEPS.md#project25)。这只是下一步，不表示当前已实现。保持 GitHub Issues disabled 的既有设置；不为了这个教学项目制造长期业务代码。
